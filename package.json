@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint",
-    "build": "webpack --mode production",
+    "build": "webpack --config webpack.config.js",
     "coverage": "jest --coverage"
   },
   "author": "",
